@@ -1,0 +1,87 @@
+/* ---------------------------- */
+/* CONFIGURAÇÃO GLOBAL */
+/* ---------------------------- */
+
+* {
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family:  "koke Mono", monospace;
+    margin: 0;
+    background: #f9fafb;
+    color: #333;
+    text-align: center;
+}
+/*----------------------*/
+/* MENU FIXO */
+/*----------------------*/
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0f172e;
+    padding: 1rem 0;
+    z-index: 1000;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu a:hover {
+    color:#0ea5e9;
+
+}
+/* ---------------------------- */
+/* CABEÇALHO */
+/* ---------------------------- */
+
+.topo {
+    padding: 6rem 1rem 2rem;
+    background: #0ea5e9;
+    color: white;
+}
+/* ---------------------------- */
+/* CONTEÚDO PRINCIPAL */
+/* ---------------------------- */
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+
+}
+
+/* ---------------------------- */
+/* LAYOUT DUAS COLUNAS */
+/* ---------------------------- */
+.duas-colunas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.duas-colunas .texto {
+    flex: 1 1 400px;
+    text-align: left;
+}
+.duas-colunas .imagem img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
